@@ -112,7 +112,7 @@ ZONE="us-central1"
 # Google Cloud service account
 SERVICE_ACCOUNT="<project id>-compute@developer.gserviceaccount.com"
 # list available versions with: ../tools/list-versions.sh
-VERSION="1.0-rc.5"
+VERSION="1.0-rc.11"
 # DRAGEN application (e.g "illumina-dragen_3_7_8n")
 JARVICE_DRAGEN_APP="illumina-dragen_4_2_4n"
 JARVICE_API_USERNAME_SECRET="projects/<GCP Project name>/secrets/jarviceApiUsername/versions/latest"
