@@ -87,6 +87,7 @@ batch_json=$(cat <<EOD
                 "--dragen-app", "$JARVICE_DRAGEN_APP",
                 "--google-sa", "$SERVICE_ACCOUNT",
                 "--job-priority", "$JARVICE_JOB_PRIORITY",
+		"--no-address",
                 "--"
               ],
               "volumes": []
