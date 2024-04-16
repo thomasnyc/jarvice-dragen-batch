@@ -107,8 +107,8 @@ batch_json=$(cat <<EOD
     "network": {
         "networkInterfaces": [
         	{
-    			"network": "projects/service-hpc-project2/global/networks/default",
-			"subnetwork": "projects/service-hpc-project2/regions/us-central1/subnetworks/default",
+    		"network": "projects/${PROJECT}/global/networks/default",
+		"subnetwork": "projects/${PROJECT}/regions/us-central1/subnetworks/default",
             	"noExternalIpAddress": true 
             }
         ]
